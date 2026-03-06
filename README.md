@@ -151,8 +151,11 @@ Description:
 An AI-powered chatbot assistant that answers financial queries and helps users analyze their portfolio.
 
 4. About Us
-Description:
-Information about the platform and its goal to help retail users manage finances more effectively.
+We are building an AI-powered financial copilot designed to make intelligent portfolio management accessible to everyday investors. While professional wealth management has traditionally been limited to high-net-worth individuals, millions of retail investors are left to navigate complex financial decisions on their own.
+
+Our platform bridges this gap by combining AI-driven portfolio analysis, personalized financial insights, and risk assessment to help users make smarter investment decisions. By simplifying financial data and delivering actionable insights, we empower individuals to understand, manage, and grow their investments with confidence.
+
+Our mission is simple — To democratize portfolio management and make intelligent financial guidance accessible to everyone.
 
 Each service should appear as a card with:
 - icon
