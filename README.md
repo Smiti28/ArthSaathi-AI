@@ -1,0 +1,2 @@
+# EarthSathi
+AI Hackathon
