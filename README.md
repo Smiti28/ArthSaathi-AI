@@ -116,6 +116,9 @@ Package the agent using Bedrock AgentCore and deploy it as a scalable serverless
 Ensure that the system is modular so additional financial tools or ESG datasets can be integrated later.
 
 
+
+
+
 UI Prompt :
 Generate a responsive web dashboard UI for a financial assistant platform.
 
@@ -131,7 +134,7 @@ Dashboard Layout:
 Create a landing dashboard page that displays the services offered by the platform.
 
 Title:
-"Smart Financial Assistant"
+"ArthSaathi"
 
 Sections on the first page should include four service cards:
 
@@ -174,7 +177,7 @@ Chatbot Popup UI:
 
 Header:
 Chatbot name: "SAAR"
-Subtitle: "Your Financial Assistant"
+Subtitle: "ArthSaathi"
 
 Include:
 - close button
