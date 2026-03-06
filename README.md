@@ -114,3 +114,119 @@ Deployment:
 Package the agent using Bedrock AgentCore and deploy it as a scalable serverless runtime.
 
 Ensure that the system is modular so additional financial tools or ESG datasets can be integrated later.
+
+
+UI Prompt :
+Generate a responsive web dashboard UI for a financial assistant platform.
+
+The dashboard should include a chatbot named "SAAR".
+
+Design Requirements:
+Use modern UI design with a clean financial dashboard theme.
+Use HTML, CSS, and JavaScript (or React if preferred).
+The UI should be responsive and simple for demo purposes.
+
+Dashboard Layout:
+
+Create a landing dashboard page that displays the services offered by the platform.
+
+Title:
+"Smart Financial Assistant"
+
+Sections on the first page should include four service cards:
+
+1. Portfolio Manager
+Description:
+Analyze a user's investment portfolio and provide a portfolio health score, asset allocation insights, and risk analysis.
+
+2. Financial Insights
+Description:
+Provide insights about spending patterns, investments, and financial health.
+
+3. Chatbot
+Description:
+An AI-powered chatbot assistant that answers financial queries and helps users analyze their portfolio.
+
+4. About Us
+Description:
+Information about the platform and its goal to help retail users manage finances more effectively.
+
+Each service should appear as a card with:
+- icon
+- title
+- short description
+- hover animation
+
+Chatbot Requirements:
+
+Create a floating chatbot button in the bottom-right corner of the screen.
+
+Chatbot Button:
+- circular button
+- fixed position bottom-right
+- label "SAAR"
+- chatbot icon
+
+When the user clicks the button:
+- a chatbot popup window should open.
+
+Chatbot Popup UI:
+
+Header:
+Chatbot name: "SAAR"
+Subtitle: "Your Financial Assistant"
+
+Include:
+- close button
+- minimize button
+
+Chat Window:
+
+When the chatbot opens for the first time, display 4 sample FAQ questions.
+
+Example FAQ Suggestions:
+1. "Analyze my portfolio"
+2. "What is a portfolio health score?"
+3. "Show me my financial insights"
+4. "How can I improve my investments?"
+
+The FAQ questions should appear as clickable suggestion buttons.
+
+If the user clicks one of the suggestions:
+- the text should automatically populate into the chat input.
+
+Chat Interface:
+
+Include:
+- message display area
+- user message bubble
+- bot response bubble
+- input text field
+- send button
+
+Behavior:
+
+When the user types a message and clicks send:
+- display the message in the chat window
+- simulate chatbot typing animation
+- show a placeholder response.
+
+Example response:
+"Thanks for your question. I'm analyzing your request and will provide insights shortly."
+
+Additional UI Features:
+
+- smooth open/close animation for chatbot popup
+- scrollable chat history
+- responsive layout for desktop and mobile
+- clean financial dashboard colors (light background with blue accents)
+
+File Structure to Generate:
+
+/ui
+   index.html
+   styles.css
+   chatbot.js
+   dashboard.js
+
+Ensure the chatbot component can later be connected to backend APIs or AI models.
